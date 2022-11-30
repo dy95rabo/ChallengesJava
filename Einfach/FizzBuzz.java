@@ -1,4 +1,4 @@
-package Challenges.Einfach;
+
 
 public class FizzBuzz {
 
@@ -34,7 +34,8 @@ public class FizzBuzz {
 
     public static String fizzBuzz(int n) {
         // advanced example code using ? operator
-        //return (n % 3 == 0 ? "Fizz" : "") + (n % 5 == 0 ? "Buzz" : "") + (n % 3 != 0 && n % 5 != 0 ? Integer.toString(n) : "");
+        // return (n % 3 == 0 ? "Fizz" : "") + (n % 5 == 0 ? "Buzz" : "") + (n % 3 != 0 && n % 5 != 0 ? Integer.toString(n) : "");
+       
         // Write your code here!
 
 
@@ -45,10 +46,10 @@ public class FizzBuzz {
         String[] solutions = new String[] { "Fizz", "Buzz", "FizzBuzz", "Buzz", "98" };
 
         for (int i = 0; i < solutions.length; i++) {
-            System.out.print("Your solution was: \t" + fizzBuzz(numbers[i]));
-            System.out.print("\t\tThe expected solution is: \t" + solutions[i] + "\t\t");
-            System.out.print("Test " + (i + 1) + " was: \t");
-            System.out.println(fizzBuzz(numbers[i]).equals(solutions[i]));
+            System.out.println("Your solution was: \t\t" + fizzBuzz(numbers[i]));
+            System.out.println("The expected solution is: \t" + solutions[i] + "\t\t");
+            System.out.print("Test " + (i + 1) + " was: \t\t\t");
+            System.out.println((fizzBuzz(numbers[i]).equals(solutions[i]))+"\n");
 
         }
 

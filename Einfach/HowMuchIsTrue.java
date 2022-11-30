@@ -1,4 +1,4 @@
-package Challenges.Einfach;
+
 
 import java.util.Arrays;
 import java.util.stream.IntStream;
@@ -27,7 +27,7 @@ public class HowMuchIsTrue {
 
     public static int countTrue(boolean[] array) {
         //advanced example solution using streams
-        //return (int) IntStream.range(0, array.length).filter(x->array[x]).count();
+        // return (int) IntStream.range(0, array.length).filter(x->array[x]).count();
 
         // Write your code here!
 
@@ -55,10 +55,10 @@ public class HowMuchIsTrue {
         int[] solutions = new int[] { 2, 0, 0, 8, 3, 8, 6, 3, 3, 4, 9, 8 };
 
         for (int i = 0; i < solutions.length; i++) {
-            System.out.print("Your solution was: \t" + countTrue(arrays[i]));
-            System.out.print("\t\tThe expected solution is: \t" + solutions[i] + "\t\t");
-            System.out.print("Test " + (i + 1) + " was: \t");
-            System.out.println(countTrue(arrays[i]) == solutions[i]);
+            System.out.println("Your solution was: \t\t" + countTrue(arrays[i]));
+            System.out.println("The expected solution is: \t" + solutions[i] + "\t\t");
+            System.out.print("Test " + (i + 1) + " was: \t\t\t");
+            System.out.println((countTrue(arrays[i]) == solutions[i])+"\n");
 
         }
     }

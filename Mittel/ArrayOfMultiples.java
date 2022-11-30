@@ -1,8 +1,5 @@
-package Challenges.Mittel;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.stream.IntStream;
 
 public class ArrayOfMultiples {
@@ -30,7 +27,6 @@ public class ArrayOfMultiples {
     public static int[] arrayOfMultiples(int num, int length) {
         // Write your code here!
 
-        
     }
 
     public static void main(String[] args) {
@@ -47,10 +43,11 @@ public class ArrayOfMultiples {
         };
 
         for (int i = 0; i < solutions.length; i++) {
-            System.out.println("Your solution was: \t\t" + IntStream.of(arrayOfMultiples(numbers[i], lengths[i])).boxed().toList());
+            System.out.println("Your solution was: \t\t"
+                    + IntStream.of(arrayOfMultiples(numbers[i], lengths[i])).boxed().toList());
             System.out.println("The expected solution is: \t" + IntStream.of(solutions[i]).boxed().toList() + "\t\t");
             System.out.print("Test " + (i + 1) + " was: \t\t\t");
-            System.out.println(Arrays.equals(arrayOfMultiples(numbers[i], lengths[i]),solutions[i])+"\n");
+            System.out.println(Arrays.equals(arrayOfMultiples(numbers[i], lengths[i]), solutions[i]) + "\n");
         }
     }
 

@@ -1,4 +1,4 @@
-package Challenges.Einfach;
+
 
 public class Stuttering {
     /**

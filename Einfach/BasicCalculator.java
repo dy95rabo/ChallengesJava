@@ -1,4 +1,3 @@
-package Challenges.Einfach;
 
 public class BasicCalculator {
     /**

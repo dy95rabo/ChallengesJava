@@ -1,4 +1,4 @@
-package Challenges.SehrEinfach;
+
 
 public class ConvertMinutesToSeconds {
     /**
