@@ -1,4 +1,4 @@
-package Challenges.Einfach;
+
 
 import java.util.stream.Stream;
 
@@ -21,7 +21,7 @@ public class WordCount {
      */
     public static int countWords(String s) {
         // advanced example code using Streams
-        //return (int) Stream.of(s.split(" ")).count();
+        // return (int) Stream.of(s.split(" ")).count();
 
 
         // Write your code here!
@@ -46,10 +46,10 @@ public class WordCount {
         int[] solutions = new int[] { 3, 4, 5, 4, 6, 4 };
 
         for (int i = 0; i < solutions.length; i++) {
-            System.out.print("Your solution was: \t" + countWords(sentences[i]));
-            System.out.print("\t\tThe expected solution is: \t" + solutions[i] + "\t\t");
-            System.out.print("Test " + (i + 1) + " was: \t");
-            System.out.println(countWords(sentences[i]) == solutions[i]);
+            System.out.println("Your solution was: \t\t" + countWords(sentences[i]));
+            System.out.println("The expected solution is: \t" + solutions[i] + "\t\t");
+            System.out.print("Test " + (i + 1) + " was: \t\t\t");
+            System.out.println((countWords(sentences[i]) == solutions[i])+"\n");
 
         }
     }
