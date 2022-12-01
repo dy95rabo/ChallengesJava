@@ -22,24 +22,10 @@ public class SevenBoom {
      * N/A
      */
     public static String sevenBoom(int[] arr) {
-        for (int i : arr) {
-            if(contains7(i)){
-                return "Boom!";
-            }
-        }
-        return "there is no 7 in the array";
+       // Write your code here!
 
     }
 
-    private static boolean contains7(int i) {
-        while(i!=0){
-            if(i%10 == 7){
-                return true;
-            }
-            i/=10;
-        }
-        return false;
-    }
 
     public static void main(String[] args) {
         int[][] numbers = new int[][] {
