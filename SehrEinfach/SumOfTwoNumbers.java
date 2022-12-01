@@ -22,11 +22,21 @@ public class SumOfTwoNumbers {
     public static int sum(int a, int b) {
         // Write your code here!
         
-
-
-
+        
+        
+        
         
     }
+
+    //more generalized advanced method
+    // public static int sum(int ... n) {
+    //     int sum =  0;
+    //     for (int i : n) {
+    //         sum+=i;
+    //     }
+    //     return sum;
+    // }
+
 
     public static void main(String[] args) {
         int[][] numbers = new int[][] { { 3, 2 }, { -3, -6 }, { 7, 3 } };
