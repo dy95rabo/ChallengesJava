@@ -41,12 +41,7 @@ public class SquarePatch {
      */
     public static int[][] squarePatch(int n) {
         // Write your code here!
-       
         
-
-
-
-
     }
 
 
@@ -90,8 +85,8 @@ public class SquarePatch {
         };
 
         for (int i = 0; i < solutions.length; i++) {
-            List<List> listSquarePatch = new ArrayList<>();
-            List<List> listSolution = new ArrayList<>();
+            List<List<Integer>> listSquarePatch = new ArrayList<>();
+            List<List<Integer>> listSolution = new ArrayList<>();
             int[][] squarePatch = squarePatch(numbers[i]);
             for (int j = 0; j < solutions[i].length; j++) {
                 listSquarePatch.add(IntStream.of(squarePatch[j]).boxed().toList());
