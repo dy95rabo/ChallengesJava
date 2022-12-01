@@ -27,7 +27,7 @@ public class IntegerDigitCount {
      */
 
     public static int count(int n) {
-        // mathematical solution
+        // a advanced mathematical solution
         // return n==0?1:(int) Math.log10(Math.abs(n))+1;
         // Write your code here!
 
