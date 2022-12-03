@@ -1,3 +1,4 @@
+package src.main.java.Einfach;
 
 
 import java.util.stream.IntStream;
@@ -26,10 +27,6 @@ public class ExistsANumberHigher {
      */
 
     public static boolean existsHigher(int[] arr, int n) {
-        // advanced example solution using streams
-        // return arr.length > 0 && IntStream.of(arr).max().getAsInt() >= n;
-        // or
-        // return  IntStream.of(arr).max().orElse(Integer.MIN_VALUE) >= n;
 
         // Write your code here!
 
@@ -53,6 +50,12 @@ public class ExistsANumberHigher {
             System.out.println((existsHigher(arrays[i], numbers[i]) == solutions[i])+"\n");
         }
 
+    }
+
+
+    public static boolean existsHigherExample(int[] arr, int n) {
+        // advanced example solution using streams
+        return arr.length > 0 && IntStream.of(arr).max().getAsInt() >= n;
     }
 
 }

@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\ivohe\\Downloads\\lombok.jar",
+        "c:\\Program Files\\Java\\lib\\lombok.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}
