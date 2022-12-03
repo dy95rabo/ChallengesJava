@@ -1,9 +1,9 @@
 package src.main.java.Mittel;
-public class IntegerDigitCount {
+public class DigitCount {
     /**
-     * Integer Digits Count
+     * igits Count
      * 
-     * Create a function that counts the integer's number of digits.
+     * Create a function that counts the number of digits in a "long".
      * Examples
      * 
      * count(4666) ➞ 4
@@ -27,14 +27,46 @@ public class IntegerDigitCount {
      * Carefull, numbers can be negative
      */
 
-    public static int count(int n) {
+    public static int count(long n) {
         // Write your code here!
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
         
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
     // public static void main(String[] args) {
     //     int[] numbers = new int[] {4666,544, 0, 318,-92563,314890,654321,638476,12345,1289396,-1232323,12839393,-231273683};
@@ -49,7 +81,7 @@ public class IntegerDigitCount {
     // }
 
 
-    // public static int countExample(int n) {
+    // public static int count(long n) {
     //     // a advanced mathematical solution
     //     return n==0?1:(int) Math.log10(Math.abs(n))+1;
     // }

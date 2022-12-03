@@ -1,7 +1,7 @@
 
 package src.main.java.Mittel;
 
-public class ItallianGrammar {
+public class ItalianGrammar {
 
     /**
      * Italian Grammar: Present Tense of First Conjugation Verbs
@@ -169,7 +169,7 @@ public class ItallianGrammar {
 
 
 
-    // public static String conjugateExample(String verb, int pronoun) {
+    // public static String conjugate(String verb, int pronoun) {
     //     // Solution
     //     String[][] pronounSuffix = new String[][] {
     //             { "Io ", "o" },

@@ -32,9 +32,35 @@ public class LeastCommonMultiple {
 
 
 
+         
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -63,8 +63,8 @@ public class FizzBuzz {
     // }
 
 
-    public static String fizzBuzzExample(int n) {
-        // advanced example code using ? operator
-        return (n % 3 == 0 ? "Fizz" : "") + (n % 5 == 0 ? "Buzz" : "") + (n % 3 != 0 && n % 5 != 0 ? Integer.toString(n) : "");
-    }
+    // public static String fizzBuzzExample(int n) {
+    //     // advanced example code using ? operator
+    //     return (n % 3 == 0 ? "Fizz" : "") + (n % 5 == 0 ? "Buzz" : "") + (n % 3 != 0 && n % 5 != 0 ? Integer.toString(n) : "");
+    // }
 }

@@ -26,13 +26,37 @@ public class HowMuchIsTrue {
      * 
      */
 
-    
-    //advanced example solution using streams
+
     public static int countTrue(boolean[] array) {
         // Write your code here!
         
         
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
         
     
@@ -40,6 +64,31 @@ public class HowMuchIsTrue {
 
     }
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //     public static void main(String[] args) {
 //         boolean[][] arrays = new boolean[][] { { true, false, false, true, false },
@@ -67,7 +116,7 @@ public class HowMuchIsTrue {
 //         }
 //     }
 
-public static int countTrueExample(boolean[] array) {
-    return (int) IntStream.range(0, array.length).filter(x->array[x]).count();
-}
+// public static int countTrue(boolean[] array) {
+//     return (int) IntStream.range(0, array.length).filter(x->array[x]).count();
+// }
 }

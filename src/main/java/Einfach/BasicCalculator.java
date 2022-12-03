@@ -31,9 +31,33 @@ public class BasicCalculator {
 
 
 
+
+
+
+
+
+
         
         
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // public static void main(String[] args) {
     //     int[][] numbers = new int[][] { { 2, 2 }, { 10, 7 }, { 2, 16 }, { 2, 2 }, { 15, 26 }, { 2, 2 }, { 2, 0 } };
@@ -51,8 +75,8 @@ public class BasicCalculator {
 
 
 
-    public static int calculatorExample(int n1, char operator, int n2) {
-        // advanced example code using ? operator
-         return operator == '+' ? n1 + n2 : operator == '-' ? n1 - n2 : operator == '*' ? n1 * n2 : n2 == 0 ? 0 : n1 / n2;
-    }
+    // public static int calculatorExample(int n1, char operator, int n2) {
+    //     // advanced example code using ? operator
+    //      return operator == '+' ? n1 + n2 : operator == '-' ? n1 - n2 : operator == '*' ? n1 * n2 : n2 == 0 ? 0 : n1 / n2;
+    // }
 }
