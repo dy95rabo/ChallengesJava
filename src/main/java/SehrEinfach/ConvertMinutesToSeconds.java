@@ -27,9 +27,43 @@ public class ConvertMinutesToSeconds {
 
 
 
+
+
+        
+
         
         
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // public static void main(String[] args) {
     //     int[] minutes = new int[] { 6, 4, 8, 60 };

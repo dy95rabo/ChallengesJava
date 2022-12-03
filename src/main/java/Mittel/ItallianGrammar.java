@@ -169,22 +169,22 @@ public class ItallianGrammar {
 
 
 
-//     public static String conjugateExample(String verb, int pronoun) {
-//         // Solution
-//         String[][] pronounSuffix = new String[][] {
-//                 { "Io ", "o" },
-//                 { "Tu ", "i" },
-//                 { "Egli ", "a" },
-//                 { "Noi ", "iamo" },
-//                 { "Voi ", "ate" },
-//                 { "Essi ", "ano" }
-//         };
-//         String root = verb.substring(0, verb.length() - 3);
-//         return pronounSuffix[pronoun - 1][0] +
-//                 (!(pronoun == 2 || pronoun == 4) ? root: (root.endsWith("c") || root.endsWith("g")) ? root + "h"
-//                         : (root.endsWith("i") ? root.substring(0, root.length() - 1) : root))
-//                 + pronounSuffix[pronoun - 1][1];
+    // public static String conjugateExample(String verb, int pronoun) {
+    //     // Solution
+    //     String[][] pronounSuffix = new String[][] {
+    //             { "Io ", "o" },
+    //             { "Tu ", "i" },
+    //             { "Egli ", "a" },
+    //             { "Noi ", "iamo" },
+    //             { "Voi ", "ate" },
+    //             { "Essi ", "ano" }
+    //     };
+    //     String root = verb.substring(0, verb.length() - 3);
+    //     return pronounSuffix[pronoun - 1][0] +
+    //             (!(pronoun == 2 || pronoun == 4) ? root: (root.endsWith("c") || root.endsWith("g")) ? root + "h"
+    //                     : (root.endsWith("i") ? root.substring(0, root.length() - 1) : root))
+    //             + pronounSuffix[pronoun - 1][1];
 
-//     }
+    // }
 
 }
