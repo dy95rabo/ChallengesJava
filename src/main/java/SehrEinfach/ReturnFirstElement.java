@@ -20,7 +20,7 @@ public class ReturnFirstElement {
      */
 
     public static int getFirstValue(int[] arr) {
-		// Write your code here!
+		//TODO
 
 
 

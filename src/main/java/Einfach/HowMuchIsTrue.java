@@ -28,7 +28,7 @@ public class HowMuchIsTrue {
 
 
     public static int countTrue(boolean[] array) {
-        // Write your code here!
+        //TODO
         
         
         

@@ -21,7 +21,7 @@ public class GetSumOfAllElements {
 
 
     public static int arraySum(int[] arr) {
-        // Write your code here!
+       //TODO
 		
 	}
 }

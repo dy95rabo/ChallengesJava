@@ -18,10 +18,25 @@ public class ReturnLastElement {
      */
 
     public static int getLastItem(int[] nums) {
-        // Write your code here!
+        //TODO
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
 
 
     }

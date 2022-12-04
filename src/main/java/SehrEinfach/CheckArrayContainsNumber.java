@@ -24,7 +24,7 @@ public class CheckArrayContainsNumber {
      */
 
     public static boolean check(int[] arr, int el) {
-        // Write your code here!
+       //TODO
 			
        
 

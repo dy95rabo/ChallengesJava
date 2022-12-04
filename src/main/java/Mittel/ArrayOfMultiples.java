@@ -26,12 +26,24 @@ public class ArrayOfMultiples {
      * @return
      */
     public static int[] arrayOfMultiples(int num, int length) {
-        // Write your code here!
+        //TODO
         
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+        
 
 
 

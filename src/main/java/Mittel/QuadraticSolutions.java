@@ -30,7 +30,7 @@ public class QuadraticSolutions {
      */
 
     public static int solutions(int a, int b, int c) {
-        // Write your code here!
+        //TODO
     
 
 

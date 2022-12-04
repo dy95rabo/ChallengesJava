@@ -23,7 +23,7 @@ public class ReplaceLetterWithPosition {
      * If any character in the string isn't a letter, ignore it.
      */
     public static String alphabetIndex(String str) {
-        // Write your code here!
+        //TODO
 
 
 

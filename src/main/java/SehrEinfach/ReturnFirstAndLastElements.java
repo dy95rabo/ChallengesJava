@@ -23,7 +23,7 @@ public class ReturnFirstAndLastElements {
      */
 
     public static String[] firstLast(String[] arr) {
-		// Write your code here!
+		//TODO
 
 
 

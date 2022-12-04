@@ -21,8 +21,7 @@ public class LeastCommonMultiple {
      * the remainder is zero.
      */
     public static int lcm(int n1, int n2) {
-         // Write your code here!
-
+         //TODO
 
 
 
