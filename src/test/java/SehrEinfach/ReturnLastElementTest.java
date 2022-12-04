@@ -1,10 +1,10 @@
-package src.test.java.SehrEinfach;
+package test.java.SehrEinfach;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import src.main.java.SehrEinfach.ReturnLastElement;
+import main.java.SehrEinfach.ReturnLastElement;
 
 public class ReturnLastElementTest {
     @Test

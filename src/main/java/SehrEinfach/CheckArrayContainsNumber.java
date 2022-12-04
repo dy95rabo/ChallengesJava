@@ -1,4 +1,4 @@
-package src.main.java.SehrEinfach;
+package main.java.SehrEinfach;
 
 import java.util.Arrays;
 

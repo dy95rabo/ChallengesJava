@@ -1,10 +1,10 @@
-package src.test.java.SehrSchwer;
+package test.java.SehrSchwer;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import src.main.java.SehrSchwer.Chapter;
+import main.java.SehrSchwer.Chapter;
 
 public class ChapterTest {
     @Test

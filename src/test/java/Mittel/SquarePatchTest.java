@@ -1,10 +1,10 @@
-package src.test.java.Mittel;
+package test.java.Mittel;
 
 import static org.junit.Assert.assertArrayEquals;
 
 import org.junit.Test;
 
-import src.main.java.Mittel.SquarePatch;
+import main.java.Mittel.SquarePatch;
 
 public class SquarePatchTest {
     @Test 

@@ -1,10 +1,10 @@
-package src.test.java.Mittel;
+package test.java.Mittel;
 
 import static org.junit.Assert.assertArrayEquals;
 
 import org.junit.Test;
 
-import src.main.java.Mittel.ArrayOfMultiples;
+import main.java.Mittel.ArrayOfMultiples;
 
 public class ArrayOfMultiplesTest {
     @Test

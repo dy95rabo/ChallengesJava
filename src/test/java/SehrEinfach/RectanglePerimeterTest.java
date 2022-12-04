@@ -1,9 +1,9 @@
-package src.test.java.SehrEinfach;
+package test.java.SehrEinfach;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-import src.main.java.SehrEinfach.RectanglePerimeter;
+import main.java.SehrEinfach.RectanglePerimeter;
 
 public class RectanglePerimeterTest {
     @Test

@@ -1,10 +1,10 @@
-package src.test.java.SehrEinfach;
+package test.java.SehrEinfach;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import src.main.java.SehrEinfach.ConvertMinutesToSeconds;
+import main.java.SehrEinfach.ConvertMinutesToSeconds;
 
 public class ConvertMinutesToSecondsTest {
     @Test

@@ -1,10 +1,10 @@
-package src.test.java.Schwer;
+package test.java.Schwer;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import src.main.java.Schwer.SevenBoom;
+import main.java.Schwer.SevenBoom;
 
 public class SevenBoomTest {
     @Test

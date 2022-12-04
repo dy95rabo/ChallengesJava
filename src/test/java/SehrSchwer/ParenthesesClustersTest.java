@@ -1,10 +1,10 @@
-package src.test.java.SehrSchwer;
+package test.java.SehrSchwer;
 
 import static org.junit.Assert.assertArrayEquals;
 
 import org.junit.Test;
 
-import src.main.java.SehrSchwer.ParenthesesClusters;
+import main.java.SehrSchwer.ParenthesesClusters;
 
 public class ParenthesesClustersTest {
 

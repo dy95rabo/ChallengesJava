@@ -1,10 +1,10 @@
-package src.test.java.SehrSchwer;
+package test.java.SehrSchwer;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import src.main.java.SehrSchwer.AltBashCypher;
+import main.java.SehrSchwer.AltBashCypher;
 
 public class AltBashCypherTest {
     @Test

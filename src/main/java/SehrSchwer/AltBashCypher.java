@@ -1,4 +1,4 @@
-package src.main.java.SehrSchwer;
+package main.java.SehrSchwer;
 
 import java.util.stream.Collectors;
 

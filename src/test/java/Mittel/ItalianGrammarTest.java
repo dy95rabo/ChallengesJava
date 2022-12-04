@@ -1,10 +1,10 @@
-package src.test.java.Mittel;
+package test.java.Mittel;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import src.main.java.Mittel.ItalianGrammar;
+import main.java.Mittel.ItalianGrammar;
 
 public class ItalianGrammarTest {
   @Test

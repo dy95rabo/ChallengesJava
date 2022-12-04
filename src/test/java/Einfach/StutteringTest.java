@@ -1,10 +1,10 @@
-package src.test.java.Einfach;
+package test.java.Einfach;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import src.main.java.Einfach.Stuttering;
+import main.java.Einfach.Stuttering;
 
 public class StutteringTest {
     @Test

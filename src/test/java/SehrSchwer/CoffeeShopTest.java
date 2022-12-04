@@ -1,12 +1,12 @@
-package src.test.java.SehrSchwer;
+package test.java.SehrSchwer;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import src.main.java.SehrSchwer.CoffeeShop;
-import src.main.java.SehrSchwer.CoffeeShop.*;
+import main.java.SehrSchwer.CoffeeShop;
+import main.java.SehrSchwer.CoffeeShop.*;
 
 public class CoffeeShopTest {
 

@@ -1,4 +1,4 @@
-package src.main.java.Einfach;
+package main.java.Einfach;
 
 
 public class Stuttering {

@@ -1,10 +1,10 @@
-package src.test.java.Mittel;
+package test.java.Mittel;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import src.main.java.Mittel.LeastCommonMultiple;
+import main.java.Mittel.LeastCommonMultiple;
 
 public class LeastCommonMultipleTest {
     @Test

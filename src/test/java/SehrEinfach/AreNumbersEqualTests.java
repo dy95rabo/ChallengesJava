@@ -1,6 +1,6 @@
-package src.test.java.SehrEinfach;
+package test.java.SehrEinfach;
 import org.junit.Test;
-import src.main.java.SehrEinfach.AreNumbersEqual;
+import main.java.SehrEinfach.AreNumbersEqual;
 
 import static org.junit.Assert.assertEquals;
 

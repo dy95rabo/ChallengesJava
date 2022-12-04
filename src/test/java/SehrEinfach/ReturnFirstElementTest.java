@@ -1,11 +1,11 @@
-package src.test.java.SehrEinfach;
+package test.java.SehrEinfach;
 
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 
-import src.main.java.SehrEinfach.ReturnFirstElement;
+import main.java.SehrEinfach.ReturnFirstElement;
 
 public class ReturnFirstElementTest {
     @Test

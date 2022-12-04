@@ -1,4 +1,4 @@
-package src.main.java.Schwer;
+package main.java.Schwer;
 
 public class SevenBoom {
     /**

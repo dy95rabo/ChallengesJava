@@ -1,10 +1,10 @@
-package src.test.java.SehrEinfach;
+package test.java.SehrEinfach;
 
 import static org.junit.Assert.assertArrayEquals;
 
 import org.junit.Test;
 
-import src.main.java.SehrEinfach.PairManagement;
+import main.java.SehrEinfach.PairManagement;
 
 public class PairManagementTest {
     @Test

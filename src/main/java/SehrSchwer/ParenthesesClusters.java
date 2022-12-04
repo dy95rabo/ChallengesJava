@@ -1,4 +1,4 @@
-package src.main.java.SehrSchwer;
+package main.java.SehrSchwer;
 
 public class ParenthesesClusters {
 

@@ -1,10 +1,10 @@
-package src.test.java.Einfach;
+package test.java.Einfach;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import src.main.java.Einfach.DifferenceMaxMin;
+import main.java.Einfach.DifferenceMaxMin;
 
 public class DifferenceMaxMinTest {
     @Test 

@@ -1,5 +1,5 @@
 
-package src.main.java.Mittel;
+package main.java.Mittel;
 
 public class ItalianGrammar {
 

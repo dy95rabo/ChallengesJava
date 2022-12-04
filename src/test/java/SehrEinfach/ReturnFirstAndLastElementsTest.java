@@ -1,10 +1,10 @@
-package src.test.java.SehrEinfach;
+package test.java.SehrEinfach;
 
 import static org.junit.Assert.assertArrayEquals;
 
 import org.junit.Test;
 
-import src.main.java.SehrEinfach.ReturnFirstAndLastElements;
+import main.java.SehrEinfach.ReturnFirstAndLastElements;
 
 public class ReturnFirstAndLastElementsTest {
     @Test 

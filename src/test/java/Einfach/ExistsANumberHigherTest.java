@@ -1,11 +1,11 @@
-package src.test.java.Einfach;
+package test.java.Einfach;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import src.main.java.Einfach.ExistsANumberHigher;
+import main.java.Einfach.ExistsANumberHigher;
 
 public class ExistsANumberHigherTest {
     @Test

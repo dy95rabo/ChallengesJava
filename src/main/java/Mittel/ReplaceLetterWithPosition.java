@@ -1,4 +1,4 @@
-package src.main.java.Mittel;
+package main.java.Mittel;
 import java.util.stream.Collectors;
 
 public class ReplaceLetterWithPosition {

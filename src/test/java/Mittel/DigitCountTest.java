@@ -1,10 +1,10 @@
-package src.test.java.Mittel;
+package test.java.Mittel;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import src.main.java.Mittel.DigitCount;
+import main.java.Mittel.DigitCount;
 
 public class DigitCountTest {
     @Test

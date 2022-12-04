@@ -1,10 +1,10 @@
-package src.test.java.Einfach;
+package test.java.Einfach;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import src.main.java.Einfach.BasicCalculator;
+import main.java.Einfach.BasicCalculator;
 
 public class BasicCalculatorTest {
     @Test

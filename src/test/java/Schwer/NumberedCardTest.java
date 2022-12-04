@@ -1,10 +1,10 @@
-package src.test.java.Schwer;
+package test.java.Schwer;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import src.main.java.Schwer.NumberedCard;
+import main.java.Schwer.NumberedCard;
 
 public class NumberedCardTest {
     @Test

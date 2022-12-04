@@ -1,10 +1,10 @@
-package src.test.java.Mittel;
+package test.java.Mittel;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import src.main.java.Mittel.QuadraticSolutions;
+import main.java.Mittel.QuadraticSolutions;
 
 public class QuadraticSolutionsTest {
     @Test
