@@ -23,5 +23,23 @@ public class GetSumOfAllElements {
     public static int arraySum(int[] arr) {
        //TODO
 		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
 	}
 }
