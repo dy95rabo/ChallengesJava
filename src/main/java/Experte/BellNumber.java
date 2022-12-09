@@ -36,17 +36,7 @@ public class BellNumber {
 
     public static int bell(int n) {
         // ToDo
-        LinkedList<Integer> topRow = new LinkedList<>();
-        topRow.add(1);
-        for (int i = 0; i < n-1; i++) {
-            LinkedList<Integer> bottomRow = new LinkedList<>();
-            bottomRow.add(topRow.getLast());
-            for (int j = 0; j < topRow.size(); j++) {
-                bottomRow.add(bottomRow.get(j)+topRow.get(j));
-            }
-            topRow = bottomRow;
-        }
-        return topRow.getLast();
+        
     }
 
 }
