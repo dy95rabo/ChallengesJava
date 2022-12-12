@@ -1,7 +1,5 @@
 package main.java.Experte;
 
-import java.util.LinkedList;
-
 public class AscendingConsecutiveNumbers {
     /**
      * 
@@ -12,13 +10,13 @@ public class AscendingConsecutiveNumbers {
      * Examples
      * 
      * ascending("232425") ➞ true
-     * // Consecutive numbers 23, 24, 25
+     * Consecutive numbers 23, 24, 25
      * 
      * ascending("2324256") ➞ false
-     * // No matter how this string is divided, the numbers are not consecutive.
+     * No matter how this string is divided, the numbers are not consecutive.
      * 
      * ascending("444445") ➞ true
-     * // Consecutive numbers 444 and 445.
+     * Consecutive numbers 444 and 445.
      * 
      * Notes
      * 
@@ -27,43 +25,20 @@ public class AscendingConsecutiveNumbers {
      * 
      */
 
-    public static boolean ascending(String str) {
-		//ToDo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+    public static boolean ascending(String input) {
+        // ToDo
+        for (int i = 1; i <= input.length() / 2; i++) {
+            long firstNumber = Integer.parseInt(input.substring(0, i));
+            String generatedSolution = "";
+            while (generatedSolution.length() < input.length()) {
+                generatedSolution += Long.toString(firstNumber);
+                firstNumber++;
+            }
+            if (input.equals(generatedSolution)) {
+                return true;
+            }
+        }
+        return false;
     }
-    
-    
-}
 
-// for (int i = 1; i <= str.length()/2; i++) {
-//     long num1 = Integer.parseInt(str.substring(0, i));
-//     String tmp = "";
-//     while (tmp.length()<str.length()) {
-//         tmp+=Long.toString(num1);
-//         num1++;
-//     }
-//     if(str.equals(tmp)){
-//         return true;
-//     }
-// }
-// return false;
+}
