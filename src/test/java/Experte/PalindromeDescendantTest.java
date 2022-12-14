@@ -51,4 +51,8 @@ public class PalindromeDescendantTest {
 	public void test9() {
 		assertEquals(false, PalindromeDescendant.palindromeDescendant(97358817));
 	}
+	@Test
+	public void test10() {
+		assertEquals(false, PalindromeDescendant.palindromeDescendant(585811));
+	}
 }

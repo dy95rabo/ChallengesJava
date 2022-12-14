@@ -27,18 +27,48 @@ public class AscendingConsecutiveNumbers {
 
     public static boolean ascending(String input) {
         // ToDo
-        for (int i = 1; i <= input.length() / 2; i++) {
-            long firstNumber = Integer.parseInt(input.substring(0, i));
-            String generatedSolution = "";
-            while (generatedSolution.length() < input.length()) {
-                generatedSolution += Long.toString(firstNumber);
-                firstNumber++;
-            }
-            if (input.equals(generatedSolution)) {
-                return true;
-            }
-        }
-        return false;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
     }
 
+    // for (int i = 1; i <= input.length() / 2; i++) {
+    // long firstNumber = Integer.parseInt(input.substring(0, i));
+    // String generatedSolution = "";
+    // while (generatedSolution.length() < input.length()) {
+    // generatedSolution += Long.toString(firstNumber);
+    // firstNumber++;
+    // }
+    // if (input.equals(generatedSolution)) {
+    // return true;
+    // }
+    // }
+    // return false;
 }

@@ -38,6 +38,9 @@ public class PalindromeDescendant {
      */
     public static boolean palindromeDescendant(int num) {
         // ToDo
+
+        // !This challenge is not phrased correctly
+
         return isPalindrom(num) || (num > 99 && palindromeDescendant(nextChildNumber(num)));
     }
 
@@ -46,9 +49,9 @@ public class PalindromeDescendant {
     }
 
     private static int[] newDigits(int[] digits) {
-        int[] newDigits = new int[digits.length/2];
+        int[] newDigits = new int[digits.length / 2];
         for (int i = 0; i < newDigits.length; i++) {
-            newDigits[i]=digits[2*i]+digits[2*i+1];
+            newDigits[i] = digits[2 * i] + digits[2 * i + 1];
         }
         return newDigits;
     }
