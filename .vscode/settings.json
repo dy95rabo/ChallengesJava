@@ -5,5 +5,19 @@
         "c:\\Program Files\\Java\\lib\\lombok.jar"
     ],
     "java.debug.settings.onBuildFailureProceed": true,
-    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable"
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable",
+    "cSpell.words": [
+        "actio",
+        "anamarg",
+        "bucketize",
+        "bucketized",
+        "debitcard",
+        "mrmojorisin",
+        "noldwestactio",
+        "noutfond",
+        "puntuation",
+        "Risin",
+        "Tesh",
+        "worldevolvesin"
+    ]
 }

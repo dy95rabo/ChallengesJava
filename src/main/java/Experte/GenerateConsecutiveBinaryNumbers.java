@@ -1,5 +1,8 @@
 package main.java.Experte;
 
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
 public class GenerateConsecutiveBinaryNumbers {
 
     /*
@@ -24,6 +27,27 @@ public class GenerateConsecutiveBinaryNumbers {
      */
 
      public static String generate(int n) {
-		
+		return IntStream.range(0, pow(2,n)).mapToObj(x->int2Binary(x,n)).filter(s->!s.contains("11")).collect(Collectors.joining(" "));
      }
+
+    private static int pow(int base, int exponent) {
+        int sol = 1;
+        for (int j = 0; j < exponent; j++) {
+            sol*=base;
+        }
+        return sol;
+    }
+
+    private static String int2Binary(int num,int numOfDigits){
+        StringBuilder sb = new StringBuilder();
+        sb.append(Integer.toBinaryString(num));
+        for (int i = sb.length(); i < numOfDigits; i++) {
+            sb.insert(0, 0);
+        }
+        return sb.toString();
+    }
+
+    public static void main(String[] args) {
+        System.out.println(generate(10));
+    }
 }
